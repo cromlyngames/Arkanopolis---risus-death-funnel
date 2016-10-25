@@ -1,0 +1,65 @@
+graph {
+
+node [shape=rect]
+start_here[shape=oval]
+
+start_here -- {servent dung_collector rabble beggar apprentice thug}
+servent -- {rouge squire innkeeper}
+dung_collector -- {rat_catcher zealot}
+rabble -- {zealot student entertainer}
+beggar-- {entertainer vagabond thief}
+apprentice -- {apothacary smith thief}
+thug -- {milita rouge merc}
+
+rat_catcher --{summoner alchemist}
+zealot -- {assassin cleric }
+student -- {summoner demagouge}
+entertainer -- {illusionist tamer}
+vagabond -- {tamer messenger}
+thief -- { rouge illusionist }
+smith -- {mage gunsmith}
+milita -- {merc captain}
+merc -- {captain  champion}
+rouge -- {assassin  smuggler}
+squire -- {messenger knight}
+innkeeper -- {demagouge alchemist}
+apothacary -- { witch cleric}
+
+knight  -- {champion}
+
+alchemist [label="ALCHEMIST&#92;nIdentify potion()&#92;nBrew poison()&#92;nCreate explosion()&#92;ngassy&#92;ncorrosive&#92;ngolden"]
+apprentice 
+apothacary 
+assassin 
+beggar
+captain
+champion
+cleric
+demagouge
+dung_collector
+entertainer
+gunsmith
+illusionist 
+innkeeper 
+knight
+mage 
+merc
+messenger
+milita 
+rabble
+rat_catcher 
+rouge
+servent
+smith 
+smuggler
+squire
+student 
+summoner 
+tamer
+thief
+thug 
+witch
+vagabond
+zealot
+
+}
