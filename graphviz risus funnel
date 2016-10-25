@@ -27,39 +27,95 @@ apothacary -- { witch cleric}
 
 knight  -- {champion}
 
-alchemist [label="ALCHEMIST&#92;nIdentify potion()&#92;nBrew poison()&#92;nCreate explosion()&#92;ngassy&#92;ncorrosive&#92;ngolden"]
-apprentice 
-apothacary 
-assassin 
+
+alchemist 
+[label="ALCHEMIST&#92;nIdentify potion()&#92;nBrew Poison()&#92;nCreate explosion()&#92;ngassy&#92;ncorrosive&#92;ngolden"]
+apprentice
+[label="APPRENTICE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+apothacary
+[label="APOTHACARY&#92;nWise()&#92;n Gather herbs() &#92;n Diagnose() &#92;n healing  &#92;n poisonous &#92;n trippy"]
+assassin
+
+[label="ASSASSIN&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 beggar
+
+[label="BEGGAR&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 captain
+
+[label="CAPTAIN&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 champion
+[label="CHAMPION&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 cleric
+
+[label="CLERIC&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 demagouge
+[label="DEMAGOUGE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 dung_collector
+[label="DUNG_COLLECTOR&#92;nPithcforker()&#92;nPet rat()&#92;nPrivy to secrets()&#92;nStinking  &#92;nTough &#92;nof the dungheap"]
 entertainer
+[label="ENTERTAINER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 gunsmith
-illusionist 
-innkeeper 
+
+[label="GUNSMITH&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+illusionist
+[label="ILLUSIONIST&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+innkeeper
+[label="INNKEEPER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 knight
-mage 
+
+[label="KNIGHT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+mage
+
+[label="MAGE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 merc
+
+[label="MERC&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 messenger
-milita 
+[label="MESSENGER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+milita
+
+[label="MILITA&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 rabble
-rat_catcher 
+
+[label="RABBLE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+rat_catcher
+[label="RAT_CATCHER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 rouge
+
+[label="ROUGE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 servent
-smith 
+
+[label="SERVENT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+smith
+
+[label="SMITH&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 smuggler
+
+[label="SMUGGLER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 squire
-student 
-summoner 
+
+[label="SQUIRE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+student
+
+[label="STUDENT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+summoner
+[label="SUMMONER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 tamer
+
+[label="TAMER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 thief
-thug 
+
+[label="THIEF&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+thug
+
+[label="THUG&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 witch
+
+[label="WITCH&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 vagabond
+[label="VAGABOND&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 zealot
+
+[label="ZEALOT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 
 }
