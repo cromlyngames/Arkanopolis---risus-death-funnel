@@ -29,9 +29,9 @@ knight  -- {champion}
 
 
 alchemist 
-[label="ALCHEMIST&#92;nIdentify potion()&#92;nBrew Poison()&#92;nCreate explosion()&#92;ngassy&#92;ncorrosive&#92;ngolden"]
+[label="ALCHEMIST&#92;nPotions and poisons()&#92;nTransform material()&#92;nCreate explosion()&#92;ngassy&#92;ncorrosive&#92;ngolden"]
 apprentice
-[label="APPRENTICE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="APPRENTICE&#92;nHandy()&#92;nWorkshop()&#92;nNobel's Bastard()&#92;nSmart+&#92;nWell made+ &#92;n"]
 apothacary
 [label="APOTHACARY&#92;nWise()&#92;n Gather herbs() &#92;n Diagnose() &#92;n healing  &#92;n poisonous &#92;n trippy"]
 assassin
@@ -39,7 +39,7 @@ assassin
 [label="ASSASSIN&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 beggar
 
-[label="BEGGAR&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="BEGGAR&#92;nSocial Invisibility()&#92;nSurvivial()&#92;nNightvision()  &#92;nSecret+  &#92;nEasily replaced+ &#92;n"]
 captain
 
 [label="CAPTAIN&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
@@ -51,7 +51,7 @@ cleric
 demagouge
 [label="DEMAGOUGE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 dung_collector
-[label="DUNG_COLLECTOR&#92;nPithcforker()&#92;nPet rat()&#92;nPrivy to secrets()&#92;nStinking  &#92;nTough &#92;nof the dungheap"]
+[label="DUNG_COLLECTOR&#92;nPithcforker()&#92;nPet rat()&#92;nPrivy to secrets()&#92;nStinking+ &#92;nDiseaesed+ &#92;n+of the dungheap"]
 entertainer
 [label="ENTERTAINER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 gunsmith
@@ -74,18 +74,19 @@ messenger
 [label="MESSENGER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 milita
 
-[label="MILITA&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="MILITA&#92;nPolearms()&#92;nCity guard() &#92;nwatchfulness()  &#92;nLeather+  &#92;nLucky+ &#92;n"]
+
 rabble
 
-[label="RABBLE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="RABBLE&#92;nImprovised weapon()&#92;nRumours and knowledge()&#92;nSearching()&#92;nLoud+&#92;nFast+ &#92;n"]
 rat_catcher
-[label="RAT_CATCHER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="RAT_CATCHER&#92;nAnimal()&#92;nPoisons()&#92;nHupnotisim()&#92;nMusical+  &#92;nSmall but vicous+ &#92;n"]
 rouge
 
 [label="ROUGE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 servent
 
-[label="SERVENT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="SERVANT&#92;nFriends()&#92;nMaster()&#92;nHousework()&#92;nSharp+&#92;nBorrowed+&#92;n"]
 smith
 
 [label="SMITH&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
@@ -94,7 +95,7 @@ smuggler
 [label="SMUGGLER&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 squire
 
-[label="SQUIRE&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="SQUIRE&#92;nEttique()&#92;nHorsemanship()&#92;nSheild fighting()&#92;nValuable+  &#92;n &#92;n"]
 student
 
 [label="STUDENT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
@@ -108,12 +109,12 @@ thief
 [label="THIEF&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 thug
 
-[label="THUG&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="THUG&#92;n Brawling()&#92;nIntimidation()&#92;nTough()&#92;nUgly+&#92;nDangerous+ &#92;n"]
 witch
 
 [label="WITCH&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
 vagabond
-[label="VAGABOND&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
+[label="VAGABOND&#92;nWayfinding()&#92;nJack of all trades()&#92;nPet animal()&#92;nHelpful+  &#92;n &#92;n"]
 zealot
 
 [label="ZEALOT&#92;n  &#92;n  &#92;n  &#92;n  &#92;n &#92;n"]
