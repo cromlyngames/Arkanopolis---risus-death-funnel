@@ -4,15 +4,17 @@ node [shape=rect]
 start_here[shape=oval]
 
 start_here -- {servent dung_collector rabble beggar apprentice thug}
-servent -- {rouge squire innkeeper}
-rabble -- {zealot student entertainer}
-dung_collector -- {rat_catcher zealot hedge_mage}
-beggar-- {entertainer vagabond thief}
-apprentice -- {apothacary smith thief}
-thug -- {milita rouge merc}
 
-rat_catcher --{summoner alchemist}
-zealot -- {assassin cleric }
+thug -- {milita rouge merc}
+apprentice -- {apothacary smith thief}
+beggar-- {entertainer vagabond thief}
+
+rabble -- {zealot student entertainer}
+dung_collector -- {rat_catcher  hedge_mage}
+servent -- { squire innkeeper}
+
+
+
 student -- {engineer demagouge wizard}
 entertainer -- {illusionist tamer}
 vagabond -- {tamer messenger}
@@ -24,25 +26,30 @@ rouge -- {assassin  smuggler}
 squire -- {messenger knight}
 innkeeper -- {demagouge alchemist}
 apothacary -- { witch cleric}
+hedge_mage--{summoner wizard} 
+zealot -- {assassin cleric }
+rat_catcher --{summoner alchemist}
 
-knight  -- {champion}
-tamer -- {witch}
-{messenger illusionist} -- spy
+
 {knight gunsmith}-- pistolier
+knight  -- {champion}
+{messenger illusionist} -- spy
 
-hedge_mage -- {summoner wizard}
+
+
+
 
 start_here[label =" START HERE. &#92;n you can always enter one of these 6 careers as well as any linked ones"]
 
 alchemist 
-[label="ALCHEMIST&#92;nPoisons()&#92;nTransform material()&#92;nCreate explosion()&#92;ngassy&#92;ncorrosive&#92;ngolden"]
+[label="ALCHEMIST&#92;nPotions and Poisons()&#92;nTransform material()&#92;nCreate explosion()&#92;ncorrosive&#92;ngolden&#92;n+of the crucible"]
 apprentice
-[label="APPRENTICE&#92;nHandy()&#92;nWorkshop()&#92;nNoble's Bastard()&#92;nSmart+&#92;nWell made+ &#92;n"]
+[label="APPRENTICE&#92;nHandy()&#92;nWorkshop()&#92;nNoble's Bastard()&#92;nSmart+&#92;nWell made+ &#92;n+of the market"]
 apothacary
-[label="APOTHECARY&#92;nWise()&#92;n Gather herbs() &#92;n Diagnose() &#92;n healing+ &#92;n poisonous+ &#92;n trippy+"]
+[label="APOTHECARY&#92;nWise()&#92;n Gather herbs() &#92;n Diagnose() &#92;n Leafy+ &#92;n Poisonous+ &#92;n "]
 assassin
 
-[label="ASSASSIN&#92;nPrecise()  &#92;nDeadly()  &#92;nPosions()  &#92;n  &#92;n &#92;n"]
+[label="ASSASSIN&#92;nPrecise()  &#92;nDeadly()  &#92;nPosions()  &#92;nRare+  &#92;nMasked+ &#92;n+of the shadows"]
 beggar
 
 [label="BEGGAR&#92;nSocial Invisibility()&#92;nSurvivial()&#92;nNightvision()  &#92;nSecret+  &#92;nEasily replaced+ &#92;n"]
@@ -59,7 +66,7 @@ demagouge
 dung_collector
 [label="DUNG_COLLECTOR&#92;nPitchforker()&#92;nPet rat()&#92;nPrivy to secrets()&#92;nStinking+ &#92;nDiseaesed+ &#92;n+of the dungheap"]
 entertainer
-[label="ENTERTAINER&#92;nDistract()&#92;nPet animal()&#92;nPrecise()&#92;nGlittering+&#92;nFake+#92;n"]
+[label="ENTERTAINER&#92;nDistract()&#92;nPet animal()&#92;nPrecise()&#92;nGlittering+&#92;nFake+&#92;n"]
 engineer [label="ENGINEER&#92;nGear magic()&#92;nSeige weapons()&#92;nCraft()&#92;n &#92;n &#92;n"]
 gunsmith
 
@@ -103,14 +110,14 @@ smuggler
 
 [label="SMUGGLER&#92;nCrossbow()  &#92;nWealthy()  &#92;nBlather()  &#92;n  &#92;n &#92;n"]
 
-spy [label="SPY&#92;n Privy to secrets&#92;nDisguise()&#92;nSocial invisibility()&#92;n&#92;n&#92;n"]
+spy [label="SPY&#92;n Privy to secrets()&#92;nDisguise()&#92;nSocial invisibility()&#92;n&#92;n&#92;n"]
 
 squire [label="SQUIRE&#92;nEtiquette()&#92;nHorsemanship()&#92;nSheild fighting()&#92;nValuable+  &#92;n &#92;n"]
 student
 
 [label="STUDENT&#92;nRumours and knowledge()  &#92;nHaggle()  &#92;nTechnology()  &#92;nImproved+  &#92;nVery Intelligent+ &#92;n"]
 summoner
-[label="SUMMONER&#92;nRaise undead  &#92;nGolem companion()  &#92;nBind imp()  &#92;nInfused+  &#92;nIllegal+ &#92;n"]
+[label="SUMMONER&#92;nRaise undead()  &#92;nGolem companion()  &#92;nBind imp()  &#92;nInfused+  &#92;nIllegal+ &#92;n"]
 tamer
 
 [label="TAMER&#92;nBeast shape()  &#92;nTame beast()  &#92;nPet animals()  &#92;nWild+  &#92;nClawed+ &#92;n"]
@@ -123,7 +130,7 @@ thug
 witch
 
 [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n  &#92;n &#92;n"]
-wizard [label="WIZARD&#92;n Something-mancer&#92;nTwist gravity&#92;nHeavy Staff&#92;n &#92;n &#92;n &#92;n"]
+wizard [label="WIZARD&#92;n Something-mancer()&#92;nTwist gravity()&#92;nHeavy staff()&#92;nArcane+ &#92;nmagical+ &#92;n+of the tower &#92;n"]
 
 vagabond
 [label="VAGABOND&#92;nWayfinding()&#92;nJack of all trades()&#92;nPet animal()&#92;nHelpful+  &#92;n &#92;n"]
