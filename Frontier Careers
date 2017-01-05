@@ -1,24 +1,27 @@
-digraph {
+graph {
 
-start -> {boatman, wildling, ploughman, nomad}
+start -- {boatman, wildling, ploughman, nomad}
 
-boatman -> {sailor, smuggler}
-wildling -> {trapper hunter}
-ploughman -> {woodsman, farmer}
-nomad -> {carter, handler}
+boatman -- {sailor, smuggler}
+wildling -- {trapper hunter}
+ploughman -- {woodsman, farmer}
+nomad -- {carter, handler}
 
-sailor -> whaler -> weatherworker
-smuggler -> pirate -> captain
-trapper -> prospecter -> engineer
-hunter -> scout -> explorer
-woodsman -> slayer -> druid
-farmer -> miller -> landowner
-carter -> {warden, highwayman}
+sailor -- whaler -- weatherworker
+smuggler -- pirate -- captain
+trapper -- prospecter -- engineer
+hunter -- scout -- explorer
+woodsman -- slayer -- druid
+farmer -- miller -- landowner
+carter -- {warden, highwayman}
 
-hunter -> slayer
-
-
-highwayman -> merc
+hunter -- slayer
+highwayman -- merc
+warden -- scout
+sailor -- explorer
+farmer -- weatherworker
+prospector -- landowner
+handler -- druid
 
 
 }
