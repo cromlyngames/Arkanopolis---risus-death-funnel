@@ -1,0 +1,24 @@
+digraph {
+
+start -> {boatman, wildling, ploughman, nomad}
+
+boatman -> {sailor, smuggler}
+wildling -> {trapper hunter}
+ploughman -> {woodsman, farmer}
+nomad -> {carter, handler}
+
+sailor -> whaler -> weatherworker
+smuggler -> pirate -> captain
+trapper -> prospecter -> engineer
+hunter -> scout -> explorer
+woodsman -> slayer -> druid
+farmer -> miller -> landowner
+carter -> {warden, highwayman}
+
+hunter -> slayer
+
+
+highwayman -> merc
+
+
+}
