@@ -1,6 +1,18 @@
 graph {
 
+node [shape=box]
+start [shape=oval]
+
+See_City_careers [shape=note]
+captain [shape=note]
+smuggler [shape=note]
+engineer [shape=note]
+witch [shape=note]
+mercenary [shape=note]
+
+
 start -- {boatman, wildling, ploughman, nomad}
+See_City_careers -- nomad [style=invis]
 
 boatman -- {sailor, smuggler}
 wildling -- {trapper hunter}
@@ -14,14 +26,18 @@ hunter -- scout -- explorer
 woodsman -- slayer -- druid
 farmer -- miller -- landowner
 carter -- {warden, highwayman}
+handler -- witch
 
 hunter -- slayer
-highwayman -- merc
+highwayman -- mercenary
 warden -- scout
 sailor -- explorer
 farmer -- weatherworker
-prospector -- landowner
+prospecter -- landowner
 handler -- druid
+
+druid [label="DRUID&#92;nBeast Shape()  &#92;nEarth magic()  &#92;nRootbind()  &#92;n Ancient+ &#92;n+Herbal+ &#92;n+of the wyrdstones"]
+witch [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;n+Cackling+ &#92;n+of the black cottage"]
 
 
 }
