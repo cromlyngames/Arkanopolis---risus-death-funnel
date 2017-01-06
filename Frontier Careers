@@ -36,8 +36,8 @@ farmer -- weatherworker
 prospecter -- landowner
 handler -- druid
 
-druid [label="DRUID&#92;nBeast Shape()  &#92;nEarth magic()  &#92;nRootbind()  &#92;n Ancient+ &#92;n+Herbal+ &#92;n+of the wyrdstones"]
-witch [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;n+Cackling+ &#92;n+of the black cottage"]
+druid [label="DRUID&#92;nBeast Shape()  &#92;nEarth magic()  &#92;nRootbind()  &#92;n Ancient+ &#92;nHerbal+ &#92;n+of the wyrdstones"]
+witch [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;nCackling+ &#92;n+of the black cottage"]
 
 
 }
