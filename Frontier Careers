@@ -33,11 +33,37 @@ highwayman -- mercenary
 warden -- scout
 sailor -- explorer
 farmer -- weatherworker
+
 prospecter -- landowner
 handler -- druid
 
-druid [label="DRUID&#92;nBeast Shape()  &#92;nEarth magic()  &#92;nRootbind()  &#92;n Ancient+ &#92;nHerbal+ &#92;n+of the wyrdstones"]
-witch [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;nCackling+ &#92;n+of the black cottage"]
 
+boatman      [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+captain       [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+carter          [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+druid           [label="DRUID&#92;nBeast Shape()  &#92;nEarth magic()  &#92;nRootbind()  &#92;n Ancient+ &#92;nHerbal+ &#92;n+of the wyrdstones"]
+engineer      [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+explorer      [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+farmer        [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+handler       [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+highwayman  [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+hunter        [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+landowner   [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+miller          [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+nomad       [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+pirate        [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+ploughman [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+prospecter  [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+sailor          [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+scout         [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+slayer        [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+smuggler    [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+trapper     [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+warden      [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+weatherworker [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+whaler        [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+witch [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;nCackling+ &#92;n+of the black cottage"]
+wildling      [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+woodsman  [label="name&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 
 }
