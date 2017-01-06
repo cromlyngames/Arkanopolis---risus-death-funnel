@@ -3,6 +3,29 @@ graph {
 node [shape=rect]
 start_here[shape=oval]
 
+
+
+
+See_Frontier_careers [shape=note]
+
+
+captain [shape=note]
+
+smuggler [shape=note]
+
+engineer [shape=note]
+
+witch [shape=note]
+
+merc [shape=note]
+
+
+
+See_Frontier_careers -- thug [style=invis]
+
+
+
+
 start_here -- {servent dung_collector rabble beggar apprentice thug}
 
 thug -- {milita rouge merc}
@@ -41,102 +64,43 @@ knight  -- {champion}
 
 start_here[label =" START HERE. &#92;n you can always enter one of these 6 careers as well as any linked ones"]
 
-alchemist 
-[label="ALCHEMIST&#92;nPotions and Poisons()&#92;nTransform material()&#92;nCreate explosion()&#92;ncorrosive&#92;nhealing&#92;n+of the crucible"]
-apprentice
-[label="APPRENTICE&#92;nHandy()&#92;nWorkshop()&#92;nNoble's Bastard()&#92;nSmart+&#92;nWell made+ &#92;n+of the market"]
-apothacary
-[label="APOTHECARY&#92;nWise()&#92;n Gather herbs() &#92;n Diagnose and Heal() &#92;n Cheerfully+ &#92;n Poisonous+ &#92;n +of the gardens"]
-assassin
-
-[label="ASSASSIN&#92;nPrecise()  &#92;nDeadly()  &#92;nPosions()  &#92;nRare+  &#92;nMasked+ &#92;n+of the shadows"]
-beggar
-
-[label="BEGGAR&#92;nSocial Invisibility()&#92;nSurvivial()&#92;nNightvision()  &#92;nSecretly+  &#92;nEasily replaced+ &#92;n+of the gutters"]
-captain
-
-[label="CAPTAIN&#92;nTactics()  &#92;nWatchfulness()  &#92;nDeadly()  &#92;nGuilty+  &#92;nBrave+ &#92;n+of the old campaign"]
-champion
-[label="CHAMPION&#92;nGreat weapon()  &#92;nTough()  &#92;nInspiring()  &#92;nInstinctive+  &#92;nRecklessly+ &#92;n+of the wild story"]
-cleric
-
-[label="CLERIC&#92;nBlessings and Healing()  &#92;nDivine protection()  &#92;nRighteous fury()  &#92;nWise+  &#92;nStout+ &#92;n+of the white shrine"]
-demagouge
-[label="DEMAGOUGE&#92;nFollowers and friends()  &#92;nRead mind()  &#92;nIntimidation()  &#92;nCalculated+  &#92;nDonated+ &#92;n+of the wharehouses"]
-dung_collector
-[label="OUTCAST&#92;nDungforker()&#92;nPet vermin()&#92;nPrivy to secrets()&#92;nStinking+ &#92;nDiseaesed+ &#92;n+of the dungheap"]
-entertainer
-[label="ENTERTAINER&#92;nDistract()&#92;nPet animal()&#92;nPrecise()&#92;nGlittering+&#92;nSincerely+&#92;n+of the stage"]
-engineer [label="ENGINEER&#92;nGear magic()&#92;nSeige weapons()&#92;nCraft()&#92;nMethocidically+ &#92;nMaster work+ &#92;n+of the academy"]
-gunsmith
-
-[label="GUNSMITH&#92;nBlunderbuss()  &#92;nGun supplies()  &#92;n Create explosions()  &#92;nCalmly+  &#92;nLoudly+ &#92;n+of the armoury"]
-
+alchemist     [label="ALCHEMIST&#92;nPotions and Poisons()&#92;nTransform material()&#92;nCreate explosion()&#92;ncorrosive&#92;nhealing&#92;n+of the crucible"]
+apprentice    [label="APPRENTICE&#92;nHandy()&#92;nWorkshop()&#92;nNoble's Bastard()&#92;nSmart+&#92;nWell made+ &#92;n+of the market"]
+apothacary    [label="APOTHECARY&#92;nWise()&#92;n Gather herbs() &#92;n Diagnose and Heal() &#92;n Cheerfully+ &#92;n Poisonous+ &#92;n +of the gardens"]
+assassin      [label="ASSASSIN&#92;nPrecise()  &#92;nDeadly()  &#92;nPosions()  &#92;nRare+  &#92;nMasked+ &#92;n+of the shadows"]
+beggar      [label="BEGGAR&#92;nSocial Invisibility()&#92;nSurvivial()&#92;nNightvision()  &#92;nSecretly+  &#92;nEasily replaced+ &#92;n+of the gutters"]
+captain       [label="CAPTAIN&#92;nTactics()  &#92;nWatchfulness()  &#92;nDeadly()  &#92;nGuilty+  &#92;nBrave+ &#92;n+of the old campaign"]
+champion      [label="CHAMPION&#92;nGreat weapon()  &#92;nTough()  &#92;nInspiring()  &#92;nInstinctive+  &#92;nRecklessly+ &#92;n+of the wild story"]
+cleric          [label="CLERIC&#92;nBlessings and Healing()  &#92;nDivine protection()  &#92;nRighteous fury()  &#92;nWise+  &#92;nStout+ &#92;n+of the white shrine"]
+demagouge    [label="DEMAGOUGE&#92;nFollowers and friends()  &#92;nRead mind()  &#92;nIntimidation()  &#92;nCalculated+  &#92;nDonated+ &#92;n+of the wharehouses"]
+dung_collector  [label="OUTCAST&#92;nDungforker()&#92;nPet vermin()&#92;nPrivy to secrets()&#92;nStinking+ &#92;nDiseaesed+ &#92;n+of the dungheap"]
+entertainer     [label="ENTERTAINER&#92;nDistract()&#92;nPet animal()&#92;nPrecise()&#92;nGlittering+&#92;nSincerely+&#92;n+of the stage"]
+engineer        [label="ENGINEER&#92;nGear magic()&#92;nSeige weapons()&#92;nCraft()&#92;nMethocidically+ &#92;nMaster work+ &#92;n+of the academy"]
+gunsmith      [label="GUNSMITH&#92;nBlunderbuss()  &#92;nGun supplies()  &#92;n Create explosions()  &#92;nCalmly+  &#92;nLoudly+ &#92;n+of the armoury"]
 hedge_mage [ label="OCCULTIST &#92;n Create light() &#92;nRead mind() &#92;nTell fortune()&#92;nWarped+ &#92;nUnfortunate+&#92;n+of the secret temple"]
-
-illusionist
-[label="ILLUSIONIST&#92;nDistract()  &#92;nGhostwalk()  &#92;nHypnotisim()  &#92;nOpenly+  &#92;nAwesome+ &#92;n+of the fountain"]
-innkeeper
-[label="INNKEEPER&#92;nBlather()  &#92;nBrawling()  &#92;nBrew Magic()  &#92;nReinforced+  &#92;nDrunkenly+ &#92;n+of the Red Lion"]
-knight
-
-[label="KNIGHT&#92;nHorsemanship()  &#92;nPlate armour()  &#92;nSquire companion()  &#92;nHeraldic+  &#92;nPractised+ &#92;n+of the tournament"]
-
-merc
-
-[label="MERC&#92;nCrossbow()  &#92;nTactics()  &#92;nDodge()  &#92;nBloody+  &#92;nLooted+ &#92;n+of the coin and flag"]
-messenger
-[label="MESSENGER&#92;nDiplomancy()  &#92;nWayfinding()  &#92;nPrivy to secrets()  &#92;nQuickly+  &#92;nDiscretely+ &#92;n+of the guild houses"]
-milita
-
-[label="MILITA&#92;nPolearms()&#92;nCity guard() &#92;nWatchfulness()  &#92;nBriskly+  &#92;nLucky+ &#92;n+of the night gates"]
-
-pistolier [label="PISTOLIER&#92;nPrecise()&#92;nHorsemanship()&#92;nTwin Pistols()&#92;n Madly+ &#92;n Wealthy+ &#92;n+of the famed regiment"]
-rabble
-
-[label="RABBLE&#92;nImprovised weapon()&#92;nRumours and knowledge()&#92;nSearching()&#92;nLoudly+&#92;nBrutal+ &#92;n+of the streets"]
-rat_catcher
-[label="RAT_CATCHER&#92;nPet animal()&#92;nPoisons()&#92;nHypnotisim()&#92;nMusical+  &#92;nSmall but vicous+ &#92;n+of the sewers"]
-rouge
-
-[label="ROGUE&#92;nStrange luck()  &#92;nFast()  &#92;nBlather()  &#92;nInquisitive+  &#92;nSharp+ &#92;n+of the shadow's edge"]
-servent
-
-[label="SERVANT&#92;nFriends()&#92;nMaster()&#92;nHousework()&#92;nQuietly+&#92;nBorrowed+&#92;n+of the houses"]
-smith
-
-[label="SMITH&#92;nStrong()&#92;nCraft()  &#92;nForge magic()  &#92;nSmoky+  &#92;nTempered+ &#92;n+of Hammer Lane"]
-smuggler
-
-[label="SMUGGLER&#92;nCrossbow()  &#92;nWealthy()  &#92;nBlather()  &#92;nKeen+  &#92;nStealthy+ &#92;n+of the backroads"]
-
-spy [label="SPY&#92;n Privy to secrets()&#92;nDisguise()&#92;nSocial invisibility()&#92;n Intimate+ &#92;n Insightful+ &#92;n+of the respectable facade"]
-
-squire [label="SQUIRE&#92;nEtiquette()&#92;nHorsemanship()&#92;nSheild fighting()&#92;nLoyally+  &#92;nDecorated+ &#92;n+of the noble house"]
-student
-
-[label="STUDENT&#92;nRumours and knowledge()  &#92;nHaggle()  &#92;nTechnology()  &#92;nImproved+  &#92;nVery Intelligent+ &#92;n+of the ivory towers"]
-summoner
-[label="SUMMONER&#92;nRaise undead()  &#92;nGolem companion()  &#92;nBind imp()  &#92;nInfused+  &#92;nIllegal+ &#92;n+of their public face"]
-tamer
-
-[label="TAMER&#92;nBeast shape()  &#92;nTame beast()  &#92;nPet animals()  &#92;nWildly+  &#92;nClawed+ &#92;n+of the wastes"]
-thief
-
-[label="THIEF&#92;nLockpicks()&#92;nClimbing()&#92;nMove silent()&#92;nMiniture+  &#92;nGuild+ &#92;n+of the rooftops"]
-thug
-
-[label="THUG&#92;n Brawling()&#92;nIntimidation()&#92;nTough()&#92;nUgly+&#92;nDangerous+ &#92;n+of the drinking dens"]
-witch
-
-[label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;n+Cackling+ &#92;n+of the black cottage"]
-
-wizard [label="WIZARD&#92;n Something-mancer()&#92;nTwist gravity()&#92;nHeavy staff()&#92;nArcane+ &#92;nmagical+ &#92;n+of their tower &#92;n"]
-
-vagabond
-[label="VAGABOND&#92;nWayfinding()&#92;nJack of all trades()&#92;nPet animal()&#92;nHelpful+  &#92;nHidden+ &#92;n+of the road"]
-zealot
-
-[label="ZEALOT&#92;nRighteous Fury()  &#92;nWillpower()  &#92;nReligion()  &#92;nRitual+  &#92;nRecklessly+ &#92;n+of a former life"]
+illusionist     [label="ILLUSIONIST&#92;nDistract()  &#92;nGhostwalk()  &#92;nHypnotisim()  &#92;nOpenly+  &#92;nAwesome+ &#92;n+of the fountain"]
+innkeeper   [label="INNKEEPER&#92;nBlather()  &#92;nBrawling()  &#92;nBrew Magic()  &#92;nReinforced+  &#92;nDrunkenly+ &#92;n+of the Red Lion"]
+knight        [label="KNIGHT&#92;nHorsemanship()  &#92;nPlate armour()  &#92;nSquire companion()  &#92;nHeraldic+  &#92;nPractised+ &#92;n+of the tournament"]
+merc          [label="MERC&#92;nCrossbow()  &#92;nTactics()  &#92;nDodge()  &#92;nBloody+  &#92;nLooted+ &#92;n+of the coin and flag"]
+messenger [label="MESSENGER&#92;nDiplomancy()  &#92;nWayfinding()  &#92;nPrivy to secrets()  &#92;nQuickly+  &#92;nDiscretely+ &#92;n+of the guild houses"]
+milita        [label="MILITA&#92;nPolearms()&#92;nCity guard() &#92;nWatchfulness()  &#92;nBriskly+  &#92;nLucky+ &#92;n+of the night gates"]
+pistolier       [label="PISTOLIER&#92;nPrecise()&#92;nHorsemanship()&#92;nTwin Pistols()&#92;n Madly+ &#92;n Wealthy+ &#92;n+of the famed regiment"]
+rabble        [label="RABBLE&#92;nImprovised weapon()&#92;nRumours and knowledge()&#92;nSearching()&#92;nLoudly+&#92;nBrutal+ &#92;n+of the streets"]
+rat_catcher [label="RAT_CATCHER&#92;nPet animal()&#92;nPoisons()&#92;nHypnotisim()&#92;nMusical+  &#92;nSmall but vicous+ &#92;n+of the sewers"]
+rouge         [label="ROGUE&#92;nStrange luck()  &#92;nFast()  &#92;nBlather()  &#92;nInquisitive+  &#92;nSharp+ &#92;n+of the shadow's edge"]
+servent       [label="SERVANT&#92;nFriends()&#92;nMaster()&#92;nHousework()&#92;nQuietly+&#92;nBorrowed+&#92;n+of the houses"]
+smith         [label="SMITH&#92;nStrong()&#92;nCraft()  &#92;nForge magic()  &#92;nSmoky+  &#92;nTempered+ &#92;n+of Hammer Lane"]
+smuggler      [label="SMUGGLER&#92;nCrossbow()  &#92;nWealthy()  &#92;nBlather()  &#92;nKeen+  &#92;nStealthy+ &#92;n+of the backroads"]
+spy             [label="SPY&#92;n Privy to secrets()&#92;nDisguise()&#92;nSocial invisibility()&#92;n Intimate+ &#92;n Insightful+ &#92;n+of the respectable facade"]
+squire        [label="SQUIRE&#92;nEtiquette()&#92;nHorsemanship()&#92;nSheild fighting()&#92;nLoyally+  &#92;nDecorated+ &#92;n+of the noble house"]
+student       [label="STUDENT&#92;nRumours and knowledge()  &#92;nHaggle()  &#92;nTechnology()  &#92;nImproved+  &#92;nVery Intelligent+ &#92;n+of the ivory towers"]
+summoner    [label="SUMMONER&#92;nRaise undead()  &#92;nGolem companion()  &#92;nBind imp()  &#92;nInfused+  &#92;nIllegal+ &#92;n+of their public face"]
+tamer         [label="TAMER&#92;nBeast shape()  &#92;nTame beast()  &#92;nPet animals()  &#92;nWildly+  &#92;nClawed+ &#92;n+of the wastes"]
+thief         [label="THIEF&#92;nLockpicks()&#92;nClimbing()&#92;nMove silent()&#92;nMiniture+  &#92;nGuild+ &#92;n+of the rooftops"]
+thug            [label="THUG&#92;n Brawling()&#92;nIntimidation()&#92;nTough()&#92;nUgly+&#92;nDangerous+ &#92;n+of the drinking dens"]
+witch         [label="WITCH&#92;nCurse()  &#92;nPet animal()  &#92;nHeadology()  &#92;n Gruesome+ &#92;n+Cackling+ &#92;n+of the black cottage"]
+wizard        [label="WIZARD&#92;n Something-mancer()&#92;nTwist gravity()&#92;nHeavy staff()&#92;nArcane+ &#92;nmagical+ &#92;n+of their tower &#92;n"]
+vagabond    [label="VAGABOND&#92;nWayfinding()&#92;nJack of all trades()&#92;nPet animal()&#92;nHelpful+  &#92;nHidden+ &#92;n+of the road"]
+zealot        [label="ZEALOT&#92;nRighteous Fury()  &#92;nWillpower()  &#92;nReligion()  &#92;nRitual+  &#92;nRecklessly+ &#92;n+of a former life"]
 
 }
