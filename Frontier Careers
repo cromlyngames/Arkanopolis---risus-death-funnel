@@ -29,7 +29,7 @@ carter -- {warden, highwayman}
 handler -- witch
 
 hunter -- slayer
-highwayman -- mercenary
+highwayman -- merc
 warden -- scout
 sailor -- explorer
 farmer -- weatherworker
@@ -39,17 +39,17 @@ handler -- druid
 
 
 boatman      [label="BOATMAN&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
-captain       [label="CAPTAIN&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+captain       [label="CAPTAIN&#92;nTactics()  &#92;nWatchfulness()  &#92;nDeadliness()  &#92;nGuilty+  &#92;nBrave+ &#92;n+of the old campaign"]
 carter          [label="CARTER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 druid           [label="DRUID&#92;nBeast Shape()  &#92;nEarth magic()  &#92;nRootbind()  &#92;n Ancient+ &#92;nDark+ &#92;n+of the wyrdstones"]
-engineer      [label="ENGINEER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+engineer        [label="ENGINEER&#92;nGear magic()&#92;nSeige weapons()&#92;nCrafted things()&#92;nMethodical+ &#92;nMaster work+ &#92;n+of the academy"]
 explorer      [label="EXPLORER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 farmer        [label="FARMER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 handler       [label="HANDLER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 highwayman  [label="HIGHWAYMAN&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 hunter        [label="HUNTER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 landowner   [label="LANDOWNER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
-mercenary    [label="MERCENARY&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+merc          [label="MERC&#92;nCrossbow()  &#92;nTactics()  &#92;nDodge()  &#92;nBloody+  &#92;nLooted+ &#92;n+of the coin and flag"]
 miller          [label="MILLER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 nomad       [label="NOMAD&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 pirate        [label="PIRATE&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
@@ -58,7 +58,7 @@ prospecter  [label="PROSPECTOR&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n 
 sailor          [label="SAILOR&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 scout         [label="SCOUT&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 slayer        [label="SLAYER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
-smuggler    [label="SMUGGLER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+smuggler      [label="SMUGGLER&#92;nCrossbow()  &#92;nWealth()  &#92;nBlather()  &#92;nKeen+  &#92;nStealthy+ &#92;n+of the backroads"]
 trapper     [label="TRAPPER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 warden      [label="WARDEN&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 weatherworker [label="WEATHER WORKER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
