@@ -8,7 +8,7 @@ captain [shape=note]
 smuggler [shape=note]
 engineer [shape=note]
 witch [shape=note]
-mercenary [shape=note]
+merc [shape=note]
 
 
 start -- {boatman, wildling, ploughman, nomad}
@@ -29,14 +29,18 @@ carter -- {warden, highwayman}
 handler -- witch
 
 hunter -- slayer
-highwayman -- merc
+highwayman -- merc--captain
 warden -- scout
-sailor -- explorer
+
 farmer -- weatherworker
 
 prospecter -- landowner
 handler -- druid
-
+sailor -- pirate
+woodsman -- prospecter
+trapper -- druid
+miller--warden
+scout--merc
 
 boatman      [label="BOATMAN&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 captain       [label="CAPTAIN&#92;nTactics()  &#92;nWatchfulness()  &#92;nDeadliness()  &#92;nGuilty+  &#92;nBrave+ &#92;n+of the old campaign"]
@@ -54,7 +58,7 @@ miller          [label="MILLER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n 
 nomad       [label="NOMAD&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 pirate        [label="PIRATE&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 ploughman [label="PLOUGHMAN&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
-prospecter  [label="PROSPECTOR&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
+prospecter  [label="PROSPECTER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 sailor          [label="SAILOR&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 scout         [label="SCOUT&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
 slayer        [label="SLAYER&#92;n_()  &#92;n_()  &#92;n_()  &#92;n _+ &#92;n _+ &#92;n+of the _"]
