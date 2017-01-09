@@ -1,11 +1,14 @@
-# Graphviv
+# Arkanopolis Player guide
 
 Arkanopolis setting
 Hot city setting for gunpoweder fantsy using Risus Reduced format.
 
 Basically the Risus cliche engine combined with a career system based on the WHFB RPG system.
+Free Risus Rules by S. J. Ross: http://risus.cumberlandgames.com/
 
-City Career chart on imgur:		http://imgur.com/a/QyVTU		
+
+City Career chart on imgur:		http://imgur.com/a/QyVTU
+Frontier Career chart: 				wip
 
 This will be a brutal game. It is advised to roll 2-3 characters. "The quicker it is to create a character... the more ok it is to be lethal because the player can roll up another character and be back in the game quickly."			
 
@@ -58,4 +61,13 @@ Final Character: Stermin the Banshee
 	Danger Sense(1)	
 	Musical Redundant Organs(2)	
 	Hypnotism(2)	
+
+# Example with merging cliches
+Where reasonable a good GM will allow a player to merge cliches.
+Jakob is a Demagogue with Friends(2), Brawling(1) from previous careers as a Servent than an Innkeeper.
+He spends 1xp to get the Deamagogue cliche Followers and Friends(1)
+It is totally reasonable to merge the Friends(2) in too, giving him a Followers and Friends(3), Brawling(1)
+Another example is an Rat-Catcher turned alchemist merging Poisons(2) into Potions and Poisons()
+
+Less clear examples might be merging Navigation() and Wayfinder() or Ettique() and Diplomancy(). If it makes the game interesting and the player happy, allow it.
 
