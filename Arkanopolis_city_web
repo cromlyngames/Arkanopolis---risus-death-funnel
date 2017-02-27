@@ -1,0 +1,58 @@
+graph {
+
+{ 
+alchemists
+bankers
+brickfields
+catchpits
+dunes
+docks
+doctors
+market
+oldcity
+guurbridge
+chainferry
+temples
+tiltbridge
+smothered
+
+
+x1
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+
+
+
+docks -- {doctors, bankers, river, canal}
+catchpits -- {river brickfields}
+brickfields -- docks
+market -- {docks guurbridge}
+guurbridge-- oldcity
+dunes-- smothered
+river -- {guurbridge, tiltbridge, chainferry}
+alchemists -- river
+
+temples -- {galte, x1, x2}
+docks -- nagasdive
+market -- drumncrow
+bankers -- firstbank 
+
+firstbank -- MrLitton
+doctors --DrMerrytzu
+docks -- MasterFTigre
+market -- MmmeTschuck
+x9 -- CobaltShrenki
+
+{ 
+bankers -- galte, blacksands
+oldcity -- council
+alchemistss -- council
+}
+
+}
