@@ -1,42 +1,68 @@
 graph {
 
+overlap=false
+spline = true
+
+ {
+node [shape=hexagon]
+
+alchemists [label="ALCHEMISTS QUARTER&#92;nWealthy(3)&#92;nFavoured by the council(2)&#92;nLow Stone Buildings(1)"]
+bankers [label="BANKERS ROW&#92;nShifting web of Obligations(4)&#92;nVaults of Gold(2)&#92;n"]
+brickfields [label="BRICKFIELDS&#92;n &#92;n &#92;n "]
+catchpits [label="CATCH-PITS&#92;n &#92;n &#92;n "]
+dunes [label="MONSTER DUNES&#92;n Groundworm Nests()&#92; Slow advance()n&#92;n Crushing weight() "]
+docks [label="BULGAN DOCKS&#92;n &#92;n &#92;n "]
+doctors [label="DOCTORS ROW&#92;n Nice side of town(1) &#92;n &#92;n "]
+market [label="AGORA ORDOS&#92;n Handy(4) &#92;n Proffesions(2) &#92;n Caravan stalls(2) "]
+oldcity [label="THE OLD CITY&#92;n  &#92;n  &#92;n "]
+guurbridge [label="THE GUUR BRIDGE&#92;n  &#92;n  &#92;n "]
+chainferry [label="THE CHAINFERRY &#92;n  &#92;n  &#92;n "]
+temples [label="PARADE OF GODS&#92;n  &#92;n  &#92;n "]
+tiltbridge [label="THE TILT BRIDGE&#92;n  &#92;n  &#92;n "]
+smothered [label="SMOTHERED DISTRICTS&#92;n Abandoned suburbs(3) &#92;n  &#92;n "]
+
+
+x1 [label="___________&#92;n  &#92;n  &#92;n "]
+x2 [label="___________&#92;n  &#92;n  &#92;n "]
+x3 [label="___________&#92;n  &#92;n  &#92;n "]
+x4 [label="___________&#92;n  &#92;n  &#92;n "]
+x5 [label="___________&#92;n  &#92;n  &#92;n "]
+x6 [label="___________&#92;n  &#92;n  &#92;n "]
+x7 [label="___________&#92;n  &#92;n  &#92;n "]
+x8 [label="___________&#92;n  &#92;n  &#92;n "]
+x9 [label="___________&#92;n  &#92;n  &#92;n "]
+}
+
+
 { 
-alchemists
-bankers
-brickfields
-catchpits
-dunes
-docks
-doctors
-market
-oldcity
-guurbridge
-chainferry
-temples
-tiltbridge
-smothered
+node [shape=box]
+nagasdive [label="NAGA'S DIVE &#92;n Docker's bar(3) &#92;n  &#92;n "]
+drumncrow [label="DRUM 'N' CROW &#92;n Merc's bar(3) &#92;n  &#92;n "]
+firstbank [label="FIRST BANK OF ARKANOPOLIS&#92;n   &#92;n  &#92;n "]
+galte [label="TEMPLE OF GALTE &#92;n Order of the Knights of Industry(3) &#92;n Jingoistic Holy Texts(2) &#92;n Ear of the Merchant Classes(1) "]
+blacksands [label="BLACK SANDS FREE COMPANY &#92;n Dirty Tricks (3 &#92;n Veteran Halbidiers(2) &#92;n Tough as Nails(1) "]
+council [label="HIGH COUNCIL OF ARKANOPOLIS&#92;n  &#92;n  &#92;n "]
+}
 
-
-x1
-x2
-x3
-x4
-x5
-x6
-x7
-x8
-x9
-
-
+{ node[shape=plaintext]
+MrLitton [label=" MR LITTON &#92;n  &#92;n  &#92;n "]
+DrMerrytzu [label=" DR MERRYTZU &#92;n Kindly snob(4) &#92;n Healing Wandwork(2) &#92;n"]
+MasterFTigre [label="MASTER F TIGRE &#92;n  &#92;n  &#92;n "]
+MmmeTschuck [label="MMME TSCHUCK &#92;n  &#92;n  &#92;n "]
+CobaltShrenki [label=" COBALT SHRENKI&#92;n  &#92;n  &#92;n "]
+}
 
 docks -- {doctors, bankers, river, canal}
-catchpits -- {river brickfields}
+catchpits -- {river brickfields} -- x4
 brickfields -- docks
 market -- {docks guurbridge}
-guurbridge-- oldcity
-dunes-- smothered
+guurbridge-- oldcity -- {x5 x6} -- canal
+dunes-- smothered -- {x7 x8} -- market 
 river -- {guurbridge, tiltbridge, chainferry}
 alchemists -- river
+titlbridge -- {canal x9}
+chainferry --{x1, x4}
+oldcity -- {temples x3}
 
 temples -- {galte, x1, x2}
 docks -- nagasdive
@@ -47,12 +73,12 @@ firstbank -- MrLitton
 doctors --DrMerrytzu
 docks -- MasterFTigre
 market -- MmmeTschuck
-x9 -- CobaltShrenki
+doctors -- x9 -- CobaltShrenki
 
 { 
 bankers -- galte, blacksands
 oldcity -- council
-alchemistss -- council
+alchemists -- council
 }
 
 }
