@@ -50,6 +50,7 @@ DrMerrytzu [label=" DR MERRYTZU &#92;n Kindly snob(4) &#92;n Healing Wandwork(2)
 MasterFTigre [label="MASTER F TIGRE &#92;n  &#92;n  &#92;n "]
 MmmeTschuck [label="MMME TSCHUCK &#92;n  &#92;n  &#92;n "]
 CobaltShrenki [label=" COBALT SHRENKI&#92;n  &#92;n  &#92;n "]
+DockMasterCaspian [label="DOCKMASTER CASPIAN &#92;n trust your gut(3) &#92;n chip on both shoulders(3)  &#92;n did you shake on it?(2)"]
 }
 
 docks -- {doctors, bankers, river, canal}
