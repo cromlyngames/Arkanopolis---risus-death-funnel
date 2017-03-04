@@ -1,7 +1,7 @@
 graph {
 
-overlap=false
-spline = true
+graph [overlap=false]
+graph [spline=true]
 
  {
 node [shape=hexagon]
@@ -33,6 +33,33 @@ x8 [label="___________&#92;n  &#92;n  &#92;n "]
 x9 [label="___________&#92;n  &#92;n  &#92;n "]
 }
 
+{
+node [shape=cds]
+c1 [label="Canal"]
+c2 [label="Canal"]
+c3 [label="Canal"]
+c4 [label="Canal"]
+c5 [label="Canal"]
+c6 [label="Canal"]
+c7 [label="Canal"]
+c8 [label="Canal"]
+c9 [label="Canal"]
+c1--c2--c3--c4--c5--c6--c7--c8--c9
+}
+
+{
+node [shape=rarrow]
+r1 [label="River"]
+r2 [label="River"]
+r3 [label="River"]
+r4 [label="River"]
+r5 [label="River"]
+r6 [label="River"]
+r7 [label="River"]
+r8 [label="River"]
+r9  [label="River"]
+r1--r2--r3--r4--r5--r6--r7--r8--r9
+}
 
 { 
 node [shape=box]
@@ -53,15 +80,17 @@ CobaltShrenki [label=" COBALT SHRENKI&#92;n  &#92;n  &#92;n "]
 DockMasterCaspian [label="DOCKMASTER CASPIAN &#92;n trust your gut(3) &#92;n chip on both shoulders(3)  &#92;n did you shake on it?(2)"]
 }
 
-docks -- {doctors, bankers, river, canal}
-catchpits -- {river brickfields} -- x4
+docks -- {doctors, bankers, r7, c3}
+catchpits -- {r9 brickfields} -- x4
 brickfields -- docks
 market -- {docks guurbridge}
-guurbridge-- oldcity -- {x5 x6} -- canal
+guurbridge-- oldcity -- {x5 x6} -- r5
 dunes-- smothered -- {x7 x8} -- market 
-river -- {guurbridge, tiltbridge, chainferry}
-alchemists -- river
-titlbridge -- {canal x9}
+r4 -- tiltbridge
+r6 -- guurbridge
+r8 -- chainferry
+alchemists -- r6
+titlbridge -- {c2 x9}
 chainferry --{x1, x4}
 oldcity -- {temples x3}
 
