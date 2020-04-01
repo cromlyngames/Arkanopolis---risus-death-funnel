@@ -13,10 +13,16 @@ Frontier Career chart: 				wip
 This will be a brutal game. It is advised to roll 2-3 characters. "The quicker it is to create a character... the more ok it is to be lethal because the player can roll up another character and be back in the game quickly."			
 
 # Character creation 
-Start with 5 xp. No starting cliche should be over 3. eg Blather(3) is ok				
+Start with 5 xp. The below rules can be used to make a character, and also carry out upgrades during sessions.
+
 spend 1xp to add 1 dice to any cliche() for your current career				
-spend 1xp to add any +bonus word (and a dice) to any cliche from other careers				
+ No starting cliche should be over 3. Example: Blather(3) is ok. You can only reach Blather (4) after earning xp in the game. 
+
+spend 1xp to add any +bonus word (and a dice) to any cliche already earned from other careers				
+
 spend 1xp to change career to any connected or the six starter ones.				
+
+
 
 Arkanopolis is a big city with peoples, races and species from all over the world mixing. Think fever dreams of Constantinople.
 As such, you may (optionally) at creation spend 1xp to get two Species cliches based on your different body. (see https://github.com/cromlyngames/Arkanopolis---risus-death-funnel/blob/master/Sophont%20creator) 
