@@ -13,7 +13,7 @@ Frontier Career chart: 				wip
 This will be a brutal game. It is advised to roll 2-3 characters. "The quicker it is to create a character... the more ok it is to be lethal because the player can roll up another character and be back in the game quickly."			
 
 # Character creation 
-Start with 5 xp. The below rules can be used to make a character, and also carry out upgrades during sessions.
+Start with 5 xp. The below rules can be used to make a character, and also carry out upgrades during sessions. There are more examples below.
 
 spend 1xp to add 1 dice to any cliche() for your current career				
  No starting cliche should be over 3. Example: Blather(3) is ok. You can only reach Blather (4) after earning xp in the game. 
@@ -32,22 +32,22 @@ As such, you may (optionally) at creation spend 1xp to get two Species cliches b
 				
 /roll 1d6; to pick start career				
 If I rolled 4 counting across the starters, that gets me the Beggar. 				
-  Abel 
-  Night Vision (1)  - 1xp
-  change career to Thief - 1xp 
-  Move Silent(2) - 2xp
- Climbing(1) - 1xp 
+  	Abel 
+  	Night Vision (1)  - 1xp
+  	change career to Thief - 1xp 
+  	Move Silent(2) - 2xp
+ 	Climbing(1) - 1xp 
 or a second Beggar Character could be 				
-  Bernard the Artful Dodger 
-  Social Invisibility(3) 
-  Survival(2)				
+  	Bernard the Artful Dodger 
+  	Social Invisibility(3) 
+  	Survival(2)				
 				
 BONUS WORDs+				
 @patbrry rolled *1* for another starting career				
 Outcast. Mwah hah hah! 
-  Charmine the hunchback 
-  Pet Vermin - pet crow (2) 
-  Privy to Secrets (3)				
+  	Charmine the hunchback 
+  	Pet Vermin - pet crow (2) 
+  	Privy to Secrets (3)				
 spending 1xp like that always gets you an extra dice, it's for when that cliche isn't available anymore, as well as if you just want a diseased pet crow				
 eg Charmine the Wizard (two careers later) might still have Pet Crow(2)				
 She could boost it by adding Arcane to get Arcane Pet Crow(3)				
