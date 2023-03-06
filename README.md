@@ -7,8 +7,8 @@ Basically the Risus cliche engine combined with a career system based on the WHF
 Free Risus Rules by S. J. Ross: http://risus.cumberlandgames.com/
 
 
-City Career chart on imgur:		http://imgur.com/a/ciuX9
-Frontier Career chart: 				wip
+City Career chart is the City. png file. Also on imgur:		http://imgur.com/a/ciuX9
+Frontier Career chart: 				is the frontier.png file
 
 This will be a brutal game. It is advised to roll 2-3 characters. "The quicker it is to create a character... the more ok it is to be lethal because the player can roll up another character and be back in the game quickly."			
 
